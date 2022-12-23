@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
 
 <body>
@@ -173,17 +173,15 @@
             class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
 
             <!-- Header -->
-            <div
-                class="fixed w-full flex items-center justify-between h-14  text-gray-900 z-10 border-b-2  dark:border-gray-700">
-                <a href="./index.html" class="justify-start ">
+            <div class="fixed w-full flex items-center justify-between h-14 text-gray-900 z-10">
+                <a href="../../index.html">
                     <div
-                        class="flex   items-center justify-start md:justify-center pl-3 w-14 md:w-64 h-14 bg-white dark:bg-gray-800 border-none  cursor-pointer">
+                        class="flex items-center justify-start md:justify-center pl-3 w-14 md:w-64 h-14 bg-white dark:bg-gray-800 border-none  cursor-pointer">
                         <img class="w-7 h-7 md:w-10 md:h-10 mr-2 rounded-md overflow-hidden"
-                            src="./components/img/logo-chuan-20.png" />
+                            src="../img/logo-chuan-20.png" />
                         <span class="hidden md:block dark:text-white font-bold opacity-80">ADMIN</span>
                     </div>
                 </a>
-
                 <div class="flex justify-between items-center h-14 bg-white dark:bg-gray-800 header-right">
                     <div
                         class="bg-white rounded flex items-center w-full max-w-xl mr-4 p-2 shadow-sm border border-gray-200">
@@ -237,9 +235,8 @@
 
             <!-- Sidebar -->
             <div
-                class="fixed  flex flex-col   top-14 left-0 w-14 hover:w-64 md:w-64 bg-white dark:bg-gray-900 h-full dark:text-white text-gray-900 transition-all duration-300 border-none z-10 sidebar">
-                <div
-                    class="overflow-y-auto border-r-2 dark:border-gray-700 overflow-x-hidden flex flex-col justify-between flex-grow">
+                class="fixed  flex flex-col top-14 left-0 w-14 hover:w-64 md:w-64 bg-white dark:bg-gray-900 h-full dark:text-white text-gray-900 transition-all duration-300 border-none z-10 sidebar">
+                <div class="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
                     <ul class="flex flex-col py-4 space-y-1" id="tabs-tabVertical" role="tablist">
                         <li class="px-5 hidden md:block">
                             <div class="flex flex-row items-center h-8">
@@ -247,143 +244,141 @@
                             </div>
                         </li>
                         <li class="nav-item flex-grow text-center" role="presentation">
-                            <a href="./index.html" id="tabs-home-tabVertical" data-bs-toggle="pill"
+                            <a href="../../index.html" id="tabs-home-tabVertical" data-bs-toggle="pill"
                                 data-bs-target="#tabs-homeVertical" role="tab" aria-controls="tabs-homeVertical"
                                 aria-selected="true"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Trang chủ </span>
                             </a>
                         </li>
                         <li class="nav-item flex-grow text-center" role="presentation">
-                            <a href="./components/khoa/index.html" id="tabs-profile-tabVertical" data-bs-toggle="pill"
-                                data-bs-target="#tabs-profileVertical" role="tab" aria-controls="tabs-profileVertical"
-                                aria-selected="false"
+                            <a href="../khoa/index.html" id="tabs-profile-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-profileVertical" role="tab"
+                            aria-controls="tabs-profileVertical" aria-selected="false"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Khoa</span>
                                 <!--   <span class="hidden md:block px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-blue-500 bg-indigo-50 rounded-full">New</span> -->
                             </a>
                         </li>
                         <li class="nav-item flex-grow text-center" role="presentation">
-                            <a href="./components/lop/index.html"
-                                class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6"
-                                id="tabs-messages-tabVertical" data-bs-toggle="pill"
-                                data-bs-target="#tabs-messagesVertical" role="tab" aria-controls="tabs-messagesVertical"
-                                aria-selected="false">
+                            <a href="../lop/index.html" 
+                                class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6" 
+                                id="tabs-messages-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-messagesVertical" role="tab"
+                            aria-controls="tabs-messagesVertical" aria-selected="false">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Lớp</span>
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a href="./components/sinhvien/index.html" id="tabs-sv-tab" data-bs-toggle="pill"
-                                data-bs-target="#tabs-sv" role="tab" aria-controls="tabs-sv" aria-selected="false"
+                            <a href="../sinhvien/index.html" id="tabs-sv-tab" data-bs-toggle="pill" data-bs-target="#tabs-sv"
+                                role="tab" aria-controls="tabs-sv" aria-selected="false"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Sinh viên</span>
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a href="./components/giangvien/index.html" id="tabs-gv-tab" data-bs-toggle="pill"
-                                data-bs-target="#tabs-gv" role="tab" aria-controls="tabs-gv" aria-selected="false"
+                            <a href="./index.html" id="tabs-gv-tab" data-bs-toggle="pill" data-bs-target="#tabs-gv"
+                                role="tab" aria-controls="tabs-gv" aria-selected="false"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Giảng viên</span>
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a href="./components/monhoc/index.html" id="tabs-mh-tab" data-bs-toggle="pill"
-                                data-bs-target="#tabs-mh" role="tab" aria-controls="tabs-mh" aria-selected="false"
+                            <a href="../monhoc/index.html" id="tabs-mh-tab" data-bs-toggle="pill" data-bs-target="#tabs-mh"
+                                role="tab" aria-controls="tabs-mh" aria-selected="false"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Quản lý môn học</span>
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a href="./components/diem/index.html" id="tabs-diem-tab" data-bs-toggle="pill"
-                                data-bs-target="#tabs-diem" role="tab" aria-controls="tabs-diem" aria-selected="false"
+                            <a href="../diem/index.html" id="tabs-diem-tab" data-bs-toggle="pill" data-bs-target="#tabs-diem"
+                                role="tab" aria-controls="tabs-diem" aria-selected="false"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 00-1.883 2.542l.857 6a2.25 2.25 0 002.227 1.932H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-1.883-2.542m-16.5 0V6A2.25 2.25 0 016 3.75h3.879a1.5 1.5 0 011.06.44l2.122 2.12a1.5 1.5 0 001.06.44H18A2.25 2.25 0 0120.25 9v.776" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Quản lý điểm</span>
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a href="./components/thanhvien/index.html" id="tabs-thanhvien-tab" data-bs-toggle="pill"
+                            <a href="../thanhvien/index.html" id="tabs-thanhvien-tab" data-bs-toggle="pill"
                                 data-bs-target="#tabs-thanhvien" role="tab" aria-controls="tabs-thanhvien"
                                 aria-selected="false"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Thành viên</span>
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a href="./components/vaitro/index.html" id="tabs-vaitro-tab" data-bs-toggle="pill"
+                            <a href="../vaitro/index.html" id="tabs-vaitro-tab" data-bs-toggle="pill"
                                 data-bs-target="#tabs-vaitro" role="tab" aria-controls="tabs-vaitro"
                                 aria-selected="false"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-white dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M21 12a2.25 2.25 0 00-2.25-2.25H15a3 3 0 11-6 0H5.25A2.25 2.25 0 003 12m18 0v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 9m18 0V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v3" />
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                                        </path>
                                     </svg>
-
                                 </span>
                                 <span class="ml-2 text-sm tracking-wide truncate">Vai trò</span>
                             </a>
@@ -430,107 +425,7 @@
             <!-- ./Sidebar -->
 
             <div class="h-full ml-14 mt-14 mb-10 md:ml-64 tab-pane fade show active">
-
-                <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-5 p-3">
-                    <a class="block rounded-xl border border-gray-200  p-4 transition bg-white hover:border-pink-500/10 hover:shadow-pink-500/10 no-underline"
-                        href="./components/khoa/index.html">
-                        <svg xmlns="http://www.w3.org/2000/svg"  class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-                          </svg>
-                          
-                        <h2 class="mt-4 text-xl font-bold text-gray-600">KHOA</h2>
-                        <div class=" mt-6 inline-flex items-center text-gray-600">
-                            <p class="text-lg font-medium">Xem Thêm</p>
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                class="ml-3 h-6 w-6 transform transition-transform group-hover:translate-x-3"
-                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </div>
-                    </a>
-
-                    <a class="block rounded-xl border border-gray-200 p-4  transition bg-white hover:border-pink-500/10 hover:shadow-pink-500/10 no-underline"
-                        href="./components/lop/index.html">
-                        <svg xmlns="http://www.w3.org/2000/svg"  class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                          </svg>
-                        <h2 class="mt-4 text-xl font-bold text-gray-600">LỚP</h2>
-
-                        <div class=" mt-6 inline-flex items-center text-gray-600">
-                            <p class="text-lg font-medium">Xem Thêm</p>
-                            <svg xmlns="#" class="ml-3 h-6 w-6 transform transition-transform group-hover:translate-x-3"
-                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </div>
-                    </a>
-
-                    <a class="block rounded-xl border border-gray-200 p-4  transition bg-white hover:border-pink-500/10 hover:shadow-pink-500/10 no-underline"
-                        href="./components/sinhvien/index.html">
-                        
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-                    </svg>
-
-                        <h2 class="mt-4 text-xl font-bold text-gray-600">SINH VIÊN</h2>
-
-                        <div class=" mt-6 inline-flex items-center text-gray-600">
-                            <p class="text-lg font-medium">Xem Thêm</p>
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                class="ml-3 h-6 w-6 transform transition-transform group-hover:translate-x-3"
-                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </div>
-                    </a>
-
-                    <a class="block rounded-xl border border-gray-200 p-4  transition bg-white hover:border-pink-500/10 hover:shadow-pink-500/10 no-underline"
-                        href="./components/monhoc/index.html">
-                       
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500"  fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
-                    </svg>
-                        <h2 class="mt-4 text-xl font-bold text-gray-600">MÔN HỌC</h2>
-
-                        <div class=" mt-6 inline-flex items-center text-gray-600">
-                            <p class="text-lg font-medium">Xem Thêm</p>
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                class="ml-3 h-6 w-6 transform transition-transform group-hover:translate-x-3"
-                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </div>
-                    </a>
-
-                    <a class="block rounded-xl border border-gray-200 p-4  transition bg-white hover:border-pink-500/10 hover:shadow-pink-500/10 no-underline"
-                        href="./components/giangvien/index.html">
-                        
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-                          </svg>
-                          
-                        <h2 class="mt-4 text-xl font-bold text-gray-600">GIẢNG VIÊN</h2>
-
-                        <div class=" mt-6 inline-flex items-center text-gray-600">
-                            <p class="text-lg font-medium">Xem Thêm</p>
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                class="ml-3 h-6 w-6 transform transition-transform group-hover:translate-x-3"
-                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </div>
-                    </a>
-
-                </div>
+             Khoajjjj
             </div>
 
         </div>
